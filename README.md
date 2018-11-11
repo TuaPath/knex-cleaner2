@@ -4,12 +4,12 @@ Helper library to clean a PostgreSQL, MySQL or SQLite3 database tables using Kne
 
 ### Installation
 ```
-npm install knex-cleaner2
+npm install @tuapath/knex-cleaner2
 ```
 
 ### Usage
 ```javascript
-var knexCleaner = require('knex-cleaner2');
+var knexCleaner = require('@tuapath/knex-cleaner2');
 
 var knex = require('knex')({
   client: 'mysql',

@@ -1,6 +1,6 @@
 {
-  "name": "knex-cleaner",
-  "version": "1.1.4",
+  "name": "@tuapath/knex-cleaner2",
+  "version": "1.0.0",
   "description": "Database cleaner for Knex.js and bookshelf.js",
   "main": "./lib/knex_cleaner.js",
   "scripts": {
@@ -16,27 +16,24 @@
     "bookshelf",
     "bookselfjs"
   ],
-  "author": "Steven Ferguson <steven.ferguson11@gmail.com>",
+  "author": "TuaPath LLC <support@tuapath.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/steven-ferguson/knex-cleaner/issues"
-  },
   "contributors": [
     "JT Turner (https://github.com/jtwebman)"
   ],
   "dependencies": {
     "bluebird": "^2.9.13",
-    "lodash": "^3.5.0"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "chai": "3.5.x",
     "chai-as-promised": "5.3.x",
     "config": "^1.28.1",
     "faker": "^2.1.2",
-    "knex": "^0.7.5",
+    "knex": "^0.15.2",
     "mocha": "*",
     "mysql": "^2.5.5",
     "pg": "^4.3.0",
-    "sqlite3": "3.1.x"
+    "sqlite3": "^4.0.4"
   }
 }

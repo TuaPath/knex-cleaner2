@@ -19,7 +19,7 @@ describe('knex_cleaner', function() {
   const clients = [
     { client: 'mysql', knex: knexMySQL },
     { client: 'postgres', knex: knexPG },
-    { client: 'sqllite', knex: knexSqLite3 },
+    { client: 'sqlite', knex: knexSqLite3 },
   ];
 
   clients.forEach(function(dbTestValues) {
@@ -31,7 +31,7 @@ describe('knex_cleaner', function() {
 
         return Promise.all(
           tableNames.map(tableName => {
-            if (tableName !== 'sqlite_sequence' || client !== 'sqllite') {
+            if (tableName !== 'sqlite_sequence' || client !== 'sqlite') {
               return knex.schema.dropTable(tableName);
             }
           })
