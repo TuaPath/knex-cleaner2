@@ -1,16 +1,15 @@
-# knex-cleaner
-[![CircleCI](https://circleci.com/gh/steven-ferguson/knex-cleaner.svg?style=svg)](https://circleci.com/gh/steven-ferguson/knex-cleaner)
+# knex-cleaner2
 
 Helper library to clean a PostgreSQL, MySQL or SQLite3 database tables using Knex. Great for integration tests.
 
 ### Installation
 ```
-npm install knex-cleaner
+npm install knex-cleaner2
 ```
 
 ### Usage
 ```javascript
-var knexCleaner = require('knex-cleaner');
+var knexCleaner = require('knex-cleaner2');
 
 var knex = require('knex')({
   client: 'mysql',
